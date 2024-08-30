@@ -12,3 +12,4 @@
 - **Crossover Detection: Detect when a short-term SMA crosses over a long-term SMA to generate trade signals.**
 - **Trade Execution: Automatically execute buy or sell trades based on the generated trade signal.**
 - **Period Update: Allows the bot admin to update SMA periods as needed.**
+- Detailed Event Logging: Emit events for important actions like initialization, SMA calculation, signal detection, and trade execution.
