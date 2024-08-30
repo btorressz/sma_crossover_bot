@@ -21,4 +21,15 @@
 - DetectCrossover: Analyzes SMAs to detect potential buy or sell signals.
 - ExecuteTrade: Executes trades based on the detected signals.
 - UpdatePeriods: Allows the admin to update the short and long SMA periods.
+
+## Events
+- BotInitializedEvent: Emitted when the bot is initialized.
+- SmaCalculatedEvent: Emitted when SMAs are calculated.
+- TradeSignalEvent: Emitted when a trade signal is generated.
+- TradeExecutionEvent: Emitted when a trade is executed.
+- PeriodsUpdatedEvent: Emitted when SMA periods are updated.
+
+  ## License
+  This project is licensed under the MIT License
+
   
