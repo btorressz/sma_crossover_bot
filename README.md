@@ -7,3 +7,8 @@
 **Please note that this project is still under review, and feedback or contributions are highly encouraged to enhance it.**
 
 ## Features
+- **Initialization: Configure the bot with custom short-term and long-term SMA periods.**
+- **SMA Calculation: Dynamically calculate SMAs based on incoming price data from a price oracle.**
+- **Crossover Detection: Detect when a short-term SMA crosses over a long-term SMA to generate trade signals.**
+- **Trade Execution: Automatically execute buy or sell trades based on the generated trade signal.**
+- **Period Update: Allows the bot admin to update SMA periods as needed.**
