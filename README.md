@@ -13,3 +13,12 @@
 - **Trade Execution: Automatically execute buy or sell trades based on the generated trade signal.**
 - **Period Update: Allows the bot admin to update SMA periods as needed.**
 - Detailed Event Logging: Emit events for important actions like initialization, SMA calculation, signal detection, and trade execution.
+
+  ## Smart Contract Overview
+  **Modules**
+- Initialize: Sets up the bot with the user's specified SMA periods.
+- CalculateSma: Computes the SMAs based on historical price data.
+- DetectCrossover: Analyzes SMAs to detect potential buy or sell signals.
+- ExecuteTrade: Executes trades based on the detected signals.
+- UpdatePeriods: Allows the admin to update the short and long SMA periods.
+  
